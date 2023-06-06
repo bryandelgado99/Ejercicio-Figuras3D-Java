@@ -12,6 +12,11 @@ public class Main {
         esfera.setPi(pi);
         cilindro.setPi(pi);
 
+        System.out.println(esfera.volumenEsfera());
+        System.out.println(cubo.volumenCubo());
+        System.out.println(cilindro.volumenCilindro());
+        System.out.println(piramide.volumenPiramide());
+
     }
 
 }

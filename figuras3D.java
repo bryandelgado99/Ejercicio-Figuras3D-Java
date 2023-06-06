@@ -92,8 +92,8 @@ public class figuras3D {
         return ((1.3)*this.pi*(this.radio*this.radio*this.radio));
     }
 
-    public float volumenPiramide(){
-        return ((1/3)*(this.lado*this.lado)*altura);
+    public double volumenPiramide(){
+        return ((0.333)*(this.lado*this.lado)*altura);
     }
 
     public double volumenCilindro(){
