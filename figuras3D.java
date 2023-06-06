@@ -14,22 +14,26 @@ public class figuras3D {
         this.pi = pi;
     }*/
 
-    public esfera(float radio, double pi){
+    //Esfera
+    public figuras3D(float radio, double pi){
         this.radio = radio;
         this.pi = pi;
     }
 
-    public cilindro(float radio, float altura, double pi){
+    //Cilindro
+    public figuras3D(float radio, float altura, double pi){
         this.radio = radio;
         this.pi = pi;
         this.altura = altura;
     }
 
-    public cubo(float lado){
+    //Cubo
+    public figuras3D(float lado){
         this.lado = lado;
     }
 
-    public piramide(float lado, float altura){
+    //Piramide
+    public figuras3D(float lado, float altura){
         this.altura = altura;
         this.lado = lado;
     }
