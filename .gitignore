@@ -1,2 +1,5 @@
 .idea/
 Ejercicio-Figuras3D-Java.iml
+out/production/Ejercicio-Figuras3D-Java/.gitignore
+out/production/Ejercicio-Figuras3D-Java/figuras3D.class
+out/production/Ejercicio-Figuras3D-Java/Main.class
