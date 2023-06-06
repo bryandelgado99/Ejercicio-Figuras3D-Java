@@ -84,5 +84,19 @@ public class figuras3D {
 
         //Métodos privado
 
+    public float volumenCubo(){
+        return (this.lado*this.lado*this.lado);
+    }
 
+    public double volumenEsfera(){
+        return ((1.3)*this.pi*(this.radio*this.radio*this.radio));
+    }
+
+    public float volumenPiramide(){
+        return ((1/3)*(this.lado*this.lado)*altura);
+    }
+
+    public double volumenCilindro(){
+        return (pi*(this.radio*this.radio)*this.altura);
+    }
 }
