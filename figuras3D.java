@@ -5,13 +5,33 @@ public class figuras3D {
     private double pi=3.1416;
 
     //Constructor------------------------------------------
-
-    public figuras3D(float lado, float area_base, float altura, float radio, double pi) {
+    //Constructor General
+    /*public figuras3D(float lado, float area_base, float altura, float radio, double pi) {
         this.lado = lado;
         this.area_base = area_base;
         this.altura = altura;
         this.radio = radio;
         this.pi = pi;
+    }*/
+
+    public esfera(float radio, double pi){
+        this.radio = radio;
+        this.pi = pi;
+    }
+
+    public cilindro(float radio, float altura, double pi){
+        this.radio = radio;
+        this.pi = pi;
+        this.altura = altura;
+    }
+
+    public cubo(float lado){
+        this.lado = lado;
+    }
+
+    public piramide(float lado, float altura){
+        this.altura = altura;
+        this.lado = lado;
     }
 
     //Setter and Getter------------------------------------
